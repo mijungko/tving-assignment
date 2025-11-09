@@ -1,5 +1,6 @@
 # Local .terraform directories
-**/.terraform/*
+**/.terraform/
+.terraform/
 
 # .tfstate files
 *.tfstate
@@ -26,6 +27,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 
-# Ignore lock files (선택사항 - 팀 협업 시에는 포함하는 것을 권장)
-# .terraform.lock.hcl
+# Ignore lock files
+.terraform.lock.hcl
+**/.terraform.lock.hcl
 
